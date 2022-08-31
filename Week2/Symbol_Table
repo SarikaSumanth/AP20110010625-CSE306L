@@ -10,11 +10,10 @@ int main()
  printf("Input the expression ending with ; sign:");
  char s[20];
  scanf("%s",s);
- while(s[k]!=';')
+ while(s[i]!=';')
  {
-  id_Array2[i]=s[k];
+  id_Array2[i]=s[i];
   i++;
-  k++;
  }
  n=i-1;
  
@@ -23,7 +22,7 @@ int main()
  while(j<=n)
  {
   c=id_Array2[j];
-  if(isalpha(toascii(c)))
+  if(isalpha(c))
   {
    ptr=malloc(c);
    id_address[x]=ptr;
