@@ -1,0 +1,108 @@
+
+#
+include: 	 preprocessor directive 
+<:	 relational operator 
+stdio: 	 standard input output
+.
+h: 	 identifier
+>:	 relational operator 
+int: 	 keyword 
+fib: 	 identifier
+(: Delimiter
+int: 	 keyword 
+n: 	 identifier
+): Delimiter
+{: Delimiter
+int: 	 keyword 
+f: 	 identifier
+[: Delimiter
+n: 	 identifier
++
+2: 	 number
+]: Delimiter
+;: Delimiter
+int: 	 keyword 
+i: 	 identifier
+;: Delimiter
+f: 	 identifier
+[: Delimiter
+0: 	 number
+]: Delimiter
+=:	 relational operator 
+0: 	 number
+;: Delimiter
+f: 	 identifier
+[: Delimiter
+1: 	 number
+]: Delimiter
+=:	 relational operator 
+1: 	 number
+;: Delimiter
+for: 	 keyword 
+(: Delimiter
+i: 	 identifier
+=:	 relational operator 
+2: 	 number
+;: Delimiter
+i: 	 identifier
+<=:	 relational operator 
+n: 	 identifier
+;: Delimiter
+i: 	 identifier
++
++
+): Delimiter
+{: Delimiter
+f: 	 identifier
+[: Delimiter
+i: 	 identifier
+]: Delimiter
+=:	 relational operator 
+f: 	 identifier
+[: Delimiter
+i: 	 identifier
+-
+1: 	 number
+]: Delimiter
++
+f: 	 identifier
+[: Delimiter
+i: 	 identifier
+-
+2: 	 number
+]: Delimiter
+;: Delimiter
+}: Delimiter
+return: 	 identifier
+f: 	 identifier
+[: Delimiter
+n: 	 identifier
+]: Delimiter
+;: Delimiter
+}: Delimiter
+int: 	 keyword 
+main: 	 identifier
+(: Delimiter
+): Delimiter
+{: Delimiter
+int: 	 keyword 
+n: 	 identifier
+=:	 relational operator 
+9: 	 number
+;: Delimiter
+printf: 	 identifier
+(: Delimiter
+"
+%d: format specifier
+"
+,: Delimiter
+fib: 	 identifier
+(: Delimiter
+n: 	 identifier
+): Delimiter
+): Delimiter
+;: Delimiter
+return: 	 identifier
+0: 	 number
+;: Delimiter
+}: Delimiter
